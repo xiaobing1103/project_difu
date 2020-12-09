@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import Main from "../../pages/Main" 
+import Main from "./Main" 
 export default {
     name:"Home",
     components: {

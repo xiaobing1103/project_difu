@@ -1,7 +1,7 @@
 <template>
-  <div class="df_nav_btm">
+  <router-link class="df_nav_btm" to="/">
     <!-- 单个导航按钮 -->
-    <div class="nav_btm_one" data-index="0">
+    <router-link to="/" class="nav_btm_one" data-index="0">
       <!-- 上方按钮logo -->
       <div class="nav_btm_logo btm_logo_1">
       </div>
@@ -9,8 +9,8 @@
       <div class="nav_btm_te">
         <span class="btm_te_fff">首页</span>
       </div>
-    </div>
-    <div class="nav_btm_one" data-index="1">
+    </router-link>
+    <router-link to="/lifedie" class="nav_btm_one" data-index="1">
       <!-- 上方按钮logo -->
       <div class="nav_btm_logo btm_logo_2">
       </div>
@@ -18,8 +18,8 @@
       <div class="nav_btm_te">
         <span>生死簿</span>
       </div>
-    </div>
-    <div class="nav_btm_one" data-index="2">
+    </router-link>
+    <router-link  to="/trial" class="nav_btm_one" data-index="2">
       <!-- 上方按钮logo -->
       <div class="nav_btm_logo btm_logo_3">
       </div>
@@ -27,8 +27,8 @@
       <div class="nav_btm_te">
         <span>审判庭</span>
       </div>
-    </div>
-    <div class="nav_btm_one" data-index="3" style="border: none">
+    </router-link>
+    <router-link  to="/user" class="nav_btm_one" data-index="3" style="border: none">
       <!-- 上方按钮logo -->
       <div class="nav_btm_logo btm_logo_4">
       </div>
@@ -36,13 +36,18 @@
       <div class="nav_btm_te">
         <span>轮回</span>
       </div>
-    </div>
-  </div>
+    </router-link>
+  </router-link>
 </template>
 
 <script>
 export default {
     name:"Footer",
+    watch:{
+      
+  },
+  methods:{
+}
 }
 </script>
 
