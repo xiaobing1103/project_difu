@@ -1,5 +1,5 @@
 <template>
-  <div>User.....</div>
+  <div class="user">User.....</div>
 </template>
 
 <script>
@@ -8,6 +8,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="less" scoped>
+    .user{
+      background-color:pink ;
+    }
 </style>

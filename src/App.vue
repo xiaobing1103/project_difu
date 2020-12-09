@@ -1,19 +1,20 @@
 <template>
   <div>
-    <Home  v-if="$route.meta.isHomeHide"/>
-    <!-- <router-view></router-view> -->
-    <Footer  />
+    <!-- <Home  v-if="$route.meta.isHomeHide"/> -->
+    <!-- 路由跳转 -->
+    <router-view></router-view>
+    <Footer />
   </div>
 </template>
 
 <script>
-import Home from "./pages/Home"
+// import Home from "./pages/Home"
 import Footer from "./components/Footer"
 export default {
   name:"App",
   components:{
-    Home,
-    Footer
+    
+    Footer,
   }
 }
 </script>
@@ -25,6 +26,6 @@ body {
   background: #f6f6f6;
 }
 a{
-  direction: none;
+  -webkit-tap-highlight-color:rgba(0,0,0,0)
 }
 </style>

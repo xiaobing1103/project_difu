@@ -37,9 +37,9 @@ Vue.use(VueRouter);
           {
                 path:'/',
                 component:Home,
-                meta:{
+               /*  meta:{
                     isHomeHide:true,
-                },
+                }, */
           },
           {
                 path:'/lifedie',

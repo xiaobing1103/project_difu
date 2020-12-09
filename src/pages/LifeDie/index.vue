@@ -1,5 +1,5 @@
 <template>
-  <div>LifeDie</div>
+  <div class="lifedie">LifeDie.....</div>
 </template>
 
 <script>
@@ -8,6 +8,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="less" scoped>
+.lifedie{
+  background-color:rebeccapurple ;
+}
 </style>
